@@ -17,7 +17,6 @@ from langchain.globals import set_debug
 
 set_debug(True)
 
-os.environ["GROQ_API_KEY"] = "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"
 memory = SqliteSaver.from_conn_string(":memory:")
 
 
